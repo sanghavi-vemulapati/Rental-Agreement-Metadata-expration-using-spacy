@@ -8,17 +8,25 @@ Rental agreement meta data extraction using Spacy
 
 **Approach:**
 
-Using NER with spacy to extract the metadata 
-Break it into two parts – Preprocessing and training model. 
-Start with a single label and then scale it by adding the rest of the labels 
+1. Using NER with spacy to extract the metadata
+
+2. Break it into two parts – Preprocessing and training model. 
+
+3. Start with a single label and then scale it by adding the rest of the labels.
  
 
 **Preprocessing methods I have tried:**
 
-Using data frames and utilizing the given trainingset.csv to prepare **
-Using spacy pattern Matcher module to match the patterns for the labels ** 
-Using spacy ruler and extractacy module to match the patterns **
-Using label studio to select the labels and prepare the training data. (Effective one for the given scenario)
+1. Using data frames and utilizing the given trainingset.csv to prepare.**
+
+2. Using spacy pattern Matcher module to match the patterns for the labels.**
+
+3. Using spacy ruler and extractacy module to match the patterns.**
+
+4. Using label studio to select the labels and prepare the training data. (Effective one for the given scenario)
+
+**Code snippets are not uploaded for the 1,2,3 preprocessing methods. As they are not that effective. If you need to take a look at it, you can reach out to me to my Linkedin https://www.linkedin.com/in/sanghavivemulapati
+
 
 **1. NER Rental using label studio annotations.ipynb -**
 
